@@ -1,0 +1,34 @@
+2023-04-09T11:16:28.051-05:00  INFO 17036 --- [restartedMain] com.onpe.WebOnpeApplication              : Starting WebOnpeApplication using Java 17.0.6 with PID 17036 (C:\Users\elian\git\repository\webOnpe\target\classes started by elian in C:\Users\elian\git\repository\webOnpe)
+2023-04-09T11:16:28.053-05:00  INFO 17036 --- [restartedMain] com.onpe.WebOnpeApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-04-09T11:16:28.085-05:00  INFO 17036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09T11:16:28.086-05:00  INFO 17036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09T11:16:28.721-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T11:16:28.722-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-09T11:16:28.741-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2023-04-09T11:16:28.753-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T11:16:28.755-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-09T11:16:28.761-05:00  INFO 17036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-04-09T11:16:29.324-05:00  INFO 17036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-09T11:16:29.333-05:00  INFO 17036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-09T11:16:29.333-05:00  INFO 17036 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-09T11:16:29.397-05:00  INFO 17036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-09T11:16:29.397-05:00  INFO 17036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
+2023-04-09T11:16:29.525-05:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-09T11:16:30.609-05:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 32b10128-d65a-4f7a-b8a5-aff3b89ae267
+2023-04-09T11:16:30.611-05:00  INFO 17036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-09T11:16:30.649-05:00  INFO 17036 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-09T11:16:30.689-05:00  INFO 17036 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-09T11:16:30.917-05:00  INFO 17036 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-09T11:16:31.376-05:00  INFO 17036 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-09T11:16:31.384-05:00  INFO 17036 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T11:16:31.449-05:00  WARN 17036 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-09T11:16:31.619-05:00  WARN 17036 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-04-09T11:16:31.690-05:00  WARN 17036 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-09T11:16:31.828-05:00  INFO 17036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09T11:16:31.862-05:00  INFO 17036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-09T11:16:31.870-05:00  INFO 17036 --- [restartedMain] com.onpe.WebOnpeApplication              : Started WebOnpeApplication in 4.127 seconds (process running for 4.739)
+2023-04-09T11:16:34.951-05:00  INFO 17036 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-09T11:16:34.960-05:00  INFO 17036 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-09T11:16:34.989-05:00  INFO 17036 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T11:16:34.991-05:00  INFO 17036 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-09T11:16:35.215-05:00  INFO 17036 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
