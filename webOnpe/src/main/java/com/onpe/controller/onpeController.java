@@ -12,7 +12,7 @@ public class onpeController {
 	@Autowired
 	GrupoService grupoService;
 	
-	@GetMapping("/grupo/{idx}")
+	@GetMapping("/grupo/{id}")
 	public String getGrupo(@PathVariable("id") String id , Model model) {
 		model.addAttribute("grupo",grupoService.getGrupo(id));
 		return "grupo";
