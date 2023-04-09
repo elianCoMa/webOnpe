@@ -206,3 +206,87 @@
 2023-04-09T11:59:24.230-05:00  INFO 22028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-09T11:59:24.231-05:00  INFO 22028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-04-09T11:59:24.233-05:00  INFO 22028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-09T12:04:18.884-05:00  INFO 14420 --- [restartedMain] com.onpe.WebOnpeApplication              : Starting WebOnpeApplication using Java 17.0.6 with PID 14420 (C:\Users\elian\git\repository\webOnpe\target\classes started by elian in C:\Users\elian\git\repository\webOnpe)
+2023-04-09T12:04:18.886-05:00  INFO 14420 --- [restartedMain] com.onpe.WebOnpeApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-04-09T12:04:18.921-05:00  INFO 14420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09T12:04:18.921-05:00  INFO 14420 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09T12:04:19.452-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T12:04:19.454-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-09T12:04:19.482-05:00  INFO 14420 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.IGrupo; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-09T12:04:19.483-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JDBC repository interfaces.
+2023-04-09T12:04:19.496-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T12:04:19.498-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-09T12:04:19.600-05:00  INFO 14420 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interfaces.
+2023-04-09T12:04:20.143-05:00  INFO 14420 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-09T12:04:20.152-05:00  INFO 14420 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-09T12:04:20.152-05:00  INFO 14420 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-09T12:04:20.231-05:00  INFO 14420 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-09T12:04:20.232-05:00  INFO 14420 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
+2023-04-09T12:04:20.459-05:00  INFO 14420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-09T12:04:21.891-05:00  INFO 14420 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e5ef9bd8-ad01-4d33-aa95-b85abce98aee
+2023-04-09T12:04:21.893-05:00  INFO 14420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-09T12:04:21.952-05:00  INFO 14420 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-09T12:04:22.021-05:00  INFO 14420 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-09T12:04:22.304-05:00  INFO 14420 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-09T12:04:23.129-05:00  INFO 14420 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-09T12:04:23.138-05:00  INFO 14420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T12:04:23.396-05:00  WARN 14420 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-09T12:04:23.755-05:00  WARN 14420 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-09T12:04:23.855-05:00  WARN 14420 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2023-04-09T12:04:23.876-05:00  WARN 14420 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-04-09T12:04:23.889-05:00  INFO 14420 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T12:04:23.892-05:00  INFO 14420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-09T12:04:24.099-05:00  INFO 14420 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-09T12:04:24.101-05:00  INFO 14420 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-09T12:04:24.111-05:00  INFO 14420 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-09T12:04:24.129-05:00 ERROR 14420 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-04-09T12:04:34.317-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-09T12:04:34.326-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-09T12:04:34.327-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-09T12:04:34.347-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T12:04:34.350-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-09T12:04:34.354-05:00  INFO 22028 --- [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-09T12:04:38.299-05:00  INFO 4452 --- [restartedMain] com.onpe.WebOnpeApplication              : Starting WebOnpeApplication using Java 17.0.6 with PID 4452 (C:\Users\elian\git\repository\webOnpe\target\classes started by elian in C:\Users\elian\git\repository\webOnpe)
+2023-04-09T12:04:38.302-05:00  INFO 4452 --- [restartedMain] com.onpe.WebOnpeApplication              : No active profile set, falling back to 1 default profile: "default"
+2023-04-09T12:04:38.339-05:00  INFO 4452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-09T12:04:38.339-05:00  INFO 4452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-09T12:04:38.787-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T12:04:38.788-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-09T12:04:38.812-05:00  INFO 4452 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.onpe.repository.IGrupo; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-04-09T12:04:38.813-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2023-04-09T12:04:38.822-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-09T12:04:38.823-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-09T12:04:38.917-05:00  INFO 4452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2023-04-09T12:04:39.364-05:00  INFO 4452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-09T12:04:39.372-05:00  INFO 4452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-09T12:04:39.372-05:00  INFO 4452 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-09T12:04:39.428-05:00  INFO 4452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/onpe]   : Initializing Spring embedded WebApplicationContext
+2023-04-09T12:04:39.428-05:00  INFO 4452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2023-04-09T12:04:39.539-05:00  INFO 4452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-09T12:04:40.568-05:00  INFO 4452 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: c59b118c-f4ab-4c8b-bc6f-8bce3caff3a3
+2023-04-09T12:04:40.569-05:00  INFO 4452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-09T12:04:40.606-05:00  INFO 4452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-09T12:04:40.644-05:00  INFO 4452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-09T12:04:40.909-05:00  INFO 4452 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.SQLServerDialect
+2023-04-09T12:04:42.030-05:00  INFO 4452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-09T12:04:42.038-05:00  INFO 4452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-09T12:04:42.334-05:00  WARN 4452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-09T12:04:42.708-05:00  WARN 4452 --- [restartedMain] o.s.data.convert.CustomConversions       : Registering converter from class microsoft.sql.DateTimeOffset to class java.time.OffsetDateTime as reading converter although it doesn't convert from a store-supported type; You might want to check your annotation setup at the converter implementation
+2023-04-09T12:04:42.807-05:00  INFO 4452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-09T12:04:42.848-05:00  INFO 4452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/onpe'
+2023-04-09T12:04:42.856-05:00  INFO 4452 --- [restartedMain] com.onpe.WebOnpeApplication              : Started WebOnpeApplication in 4.854 seconds (process running for 5.504)
